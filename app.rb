@@ -2,7 +2,7 @@ class Application < Sinatra::Base
   # Write your code here!
   get '/' do
     erb :index
-    # user_name = params[:user_name]
+    user_name = params[:user_name]
     # redirect '/greet
   end
 
